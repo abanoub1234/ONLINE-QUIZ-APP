@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/think">
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Quiz App "
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_50sdp">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play and Fun"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="#99ffffff">
+    </TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startQuizBtr"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="Start Quiz"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="@drawable/round_back_secondary_100">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quitBtr"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Quit Application"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="@drawable/round_back_sec_str_100">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>
